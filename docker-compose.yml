@@ -1,0 +1,8 @@
+version: '3.6'
+services:
+  hello_world_nodejs:
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+      
